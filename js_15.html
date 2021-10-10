@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Latihan Perulangan while</title>
+</head>
+<script language="JavaScript">
+<!-- menyembunyikan script dan browser non-JS 
+var deret = prompt("Masukan Jumlah Deret :", ' ');
+document.writeln("<h2>Latihan Perulangan While</h2>");
+document.write("------------------------------------------");
+document.write("<break>");
+var jml = 0.0;
+var angka = 1;
+ while (angka <= deret)
+  {
+   jml = jml+angka;
+   angka++
+  }
+document.writeln("<break>");
+document.writeln("Jumlah deret dari 1 sampai "+deret+" adalah = "+jml+"");
+document.writeln("<break>");
+document.write("------------------------------------------");
+// akhir dari penyembumbunyian -->
+</script>
+</head>
+</html>
+
+
+
